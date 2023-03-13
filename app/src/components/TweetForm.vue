@@ -86,13 +86,13 @@ const send = async () => {
                     :class="canTweet ? 'bg-pink-500' : 'bg-pink-300 cursor-not-allowed'"
                     @click="send"
                 >
-                    Tweet
+                    Send post
                 </button>
             </div>
         </div>
     </div>
 
     <div v-else class="px-8 py-4 bg-gray-50 text-gray-500 text-center border-b">
-        Connect your wallet to start tweeting...
+        Connect your wallet to start sending posts...
     </div>
 </template>
